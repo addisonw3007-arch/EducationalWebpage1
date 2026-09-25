@@ -1,0 +1,61 @@
+
+/* Styles the overall page */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Styles the main heading */
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Styles the secondary headings */
+h2 {
+    text-align: left;
+    font-size: 26px;
+}
+
+/* Styles paragraph text */
+p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Styles introductory text on both pages */
+.intro-text {
+    font-style: italic;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Styles the footer on both pages */
+.page-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: darkgray;
+}
+
+/* Styles the characteristics section */
+#cat-characteristics {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Styles the communication section */
+#cat-communication {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Places the cat information and image side by side */
+.cat-layout {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}

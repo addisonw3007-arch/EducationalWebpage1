@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>All About Cats</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -17,32 +18,34 @@
     <!-- Main content of the webpage -->
     <main>
 
-        <p>Cats are one of the most popular pets in the world.</p>
+        <p class="intro-text">Cats are one of the most popular pets in the world.</p>
 
         <!-- Section containing information about cat characteristics -->
-        <section>
-            <h2>What Makes Cats Unique?</h2>
+        <div class="cat-layout">
 
-            <p>Cats are known for being independent, curious, and intelligent animals. Domestic cats can have very different personalities, with some being extremely social and others preferring to spend more time alone.</p>
+            <section id="cat-characteristics">
+                <h2>What Makes Cats Unique?</h2>
 
-            <h2>Common Cat Characteristics</h2>
+                <p>Cats are known for being independent, curious, and intelligent animals.</p>
 
-            <!-- Unordered list of common cat characteristics -->
-            <ul>
+                <h2>Common Cat Characteristics</h2>
+
+                <ul>
                 <li>Excellent hearing</li>
                 <li>Strong night vision</li>
                 <li>Flexible bodies</li>
                 <li>Highly developed sense of balance</li>
-            </ul>
-        </section>
+                </ul>
+             </section>
 
-        <!-- Displays a cat image stored in the images folder -->
-        <img src="images/cat.jpg" alt="A domestic cat" width="400">
+            <img src="images/cat.jpg" alt="A domestic cat" width="400">
+
+        </div>
 
     </main>
 
     <!-- Footer containing a link to the second page -->
-    <footer>
+    <footer class="page-footer">
         <a href="page2.html">Learn More About Cat Behavior</a>
     </footer>
 
