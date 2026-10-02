@@ -38,6 +38,9 @@ p {
     padding: 20px;
     background-color: darkgray;
 }
+.page-footer a {
+    color: black;
+}
 
 /* Styles the characteristics section */
 #cat-characteristics {
